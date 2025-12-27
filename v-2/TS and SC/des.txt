@@ -1,0 +1,9 @@
+This is concept of time and space complexity.
+
+1.Definition
+2.Tc for Big Oh Notation.
+3.Always calculate TC in terms of Worst Case.
+4.Avoid constant value & Avoid lower values.
+5.Different types of TC.
+6.EX: 1 & 2.
+7.Space complexity.
