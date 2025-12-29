@@ -1,0 +1,3 @@
+Operations and it's time and space complexity.
+
+given pictures are table of verious time and space complexity valus. 
