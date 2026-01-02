@@ -11,7 +11,7 @@ eg:
     111: 1
 '''
 # Method 1
-nums = [5,6,7,7,1,9,111,1,5,1,1]
+nums = [5,6,7,7,1,9,111,1,5,1,1,1,1]
 freq_map = {}
 for i in range(0, len(nums)):
     
