@@ -20,6 +20,8 @@ for num in m:
 '''Constraints: 1. 1<= n[i] <= 10
              2. n can have 10^8 elements
              3. m can have 10^8 elements
+    Time Complexity: O(N+M)
+    Space Complexity: O(1)
 '''
 n = [5,3,2,2,1,5,5,7,5,10]
 m = [10,111,1,9,5,67,2]
@@ -34,6 +36,8 @@ for num in m:
         print(f"{num} : {hash_list[num]}")
         
 # Character hasing
+# TC: O(N+M)
+# SC: O(1)
 s = "azyxyyzaaaa"
 q = ["d", "a", "y", "v"]
 
