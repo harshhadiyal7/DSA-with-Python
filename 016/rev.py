@@ -1,5 +1,10 @@
 #Reverse array using recursion.
 
+'''
+Concept: To reverse an array using recursion, we can swap the first and last elements and then recursively call the function 
+for the sub-array excluding these two elements until the base case is reached.
+'''
+
 from turtle import left, right
 
 

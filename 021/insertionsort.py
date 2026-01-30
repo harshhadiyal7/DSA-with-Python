@@ -1,4 +1,9 @@
 # Insertionsort implementation in Python.
+'''
+Concept: Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
+It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+(key idea): The array is virtually split into a sorted and an unsorted part.
+'''
 
 nums = [3,5,6,4,8,9,10,7,1]
 

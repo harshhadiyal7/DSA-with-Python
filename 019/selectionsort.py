@@ -1,4 +1,9 @@
 # Selection Sort Implementation.
+
+'''
+Concept: 
+Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist and an unsorted sublist.
+'''
 nums = [1,7,8,4,5,6,9,2]
 def selection_sort(nums):
     n=len(nums)
