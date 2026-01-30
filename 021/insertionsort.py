@@ -13,3 +13,11 @@ for i in range (1, n):
         
     nums[j+1] = key
 print("Sorted array is:", nums)
+
+'''
+output:
+Sorted array is: [1, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+'''
