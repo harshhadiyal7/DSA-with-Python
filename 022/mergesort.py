@@ -6,25 +6,19 @@ recursively sorts each half, and then merges the two sorted halves back together
 '''
 
 from turtle import left, right
-
 arr = [38, 27, 43, 3, 9, 82, 10]
 
 def merge_sort(arr):
-    # base case
-    if len(arr) <= 1:
+    if len(arr) <= 1:# base case
         return arr
-
     mid = len(arr) // 2
     left = arr[:mid]
     right = arr[mid:]
-
-    # recursive calls
-    left = merge_sort(left)
+    
+    left = merge_sort(left)# recursive calls
     right = merge_sort(right)
 
-    # merge step
-    return merge(left, right)
-
+    return merge(left, right) # merge step
 
 def merge(left, right):
     result = []
@@ -38,13 +32,8 @@ def merge(left, right):
             result.append(right[j])
             j += 1
 
-    # add remaining elements
-    result.extend(left[i:])
+    result.extend(left[i:])# add remaining elements
     result.extend(right[j:])
-
     return result
-
-
-arr = [38, 27, 43, 3, 9, 82, 10]
 print("Unsorted Array:", arr)
 print("Sorted Array:", merge_sort(arr))
