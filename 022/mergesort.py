@@ -37,3 +37,11 @@ def merge(left, right):
     return result
 print("Unsorted Array:", arr)
 print("Sorted Array:", merge_sort(arr))
+
+'''
+output:
+Unsorted Array: [38, 27, 43, 3, 9, 82, 10]
+Sorted Array: [3, 9, 10, 27, 38, 43, 82]
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+'''

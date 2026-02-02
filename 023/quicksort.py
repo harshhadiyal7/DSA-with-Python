@@ -35,3 +35,9 @@ def quick_sort(nums, low, high):
 
 sorted_nums = quick_sort(nums, 0, len(nums) - 1)    
 print(sorted_nums)
+
+'''
+output: [1, 2, 3, 4, 6, 7, 8]
+Time Complexity: O(n log n) on average, O(n^2) in the worst case
+Space Complexity: O(log n) due to recursive stack space 
+'''
