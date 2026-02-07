@@ -20,3 +20,7 @@ n=len(nums)
 k = n%k
 nums[:] = nums[n-k:]+nums[:n-k]
 print(nums)
+'''
+Tc: O(n) where n is the number of elements in the array
+Sc: O(n) as we are creating a new array to store the rotated elements
+'''
