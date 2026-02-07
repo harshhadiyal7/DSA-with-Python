@@ -13,3 +13,10 @@ print(nums)
 Tc: O(n*k) where n is the number of elements in the array and k is the number of rotations
 Sc: O(1) as we are not using any extra space for another array, we
 '''
+#Better Approach
+nums = [3,9,5,6,7,2,10,9]
+k=5
+n=len(nums)
+k = n%k
+nums[:] = nums[n-k:]+nums[:n-k]
+print(nums)
