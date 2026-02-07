@@ -14,3 +14,17 @@ for k in freq_map:
     nums[j]=k
     j+=1
 print(nums[:j])
+
+#optimized approach:
+n=len(nums)
+if n==1:
+    print(nums)
+i=0
+j=i+1
+while j<n:
+    if nums[i]!=nums[j]:
+        i+=1
+        nums[i],nums[j]=nums[j],nums[i]
+    j+=1
+    
+print(nums[:i+1])
