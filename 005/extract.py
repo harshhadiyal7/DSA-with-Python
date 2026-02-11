@@ -10,7 +10,6 @@ while num>0:
     num=num//10
 '''
 
-
 # Reverse gigits
 #  5 8 7 3 -> 3 7 8 5
 n=5873
