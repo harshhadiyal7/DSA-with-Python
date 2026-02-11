@@ -1,4 +1,5 @@
 # Print sum of 1 to n using functional recursion.
+
 def func(sum, i,n):
     if i > n:
         print(sum)
