@@ -1,4 +1,5 @@
 # Check Armstrong number.
+
 '''
 It is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
 eg: 153 = 1^3 + 5^3 + 3^3= 1+125+27 = 153
