@@ -1,5 +1,4 @@
 # This is program for Count a digits.
-
 '''
 Logic:
 count = 0
