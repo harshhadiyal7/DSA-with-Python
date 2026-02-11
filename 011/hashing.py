@@ -1,4 +1,5 @@
 # Hashing in Python.
+
 '''
 Prestoring values into same data structure like dictionary, set and lists.
 Constraints: 1. 1<= n[i] <= 10
