@@ -1,5 +1,4 @@
 # Print all factors of a number.
-
 '''
 10 [1, 2, 5, 10]
 15 [1, 3, 5, 15]
