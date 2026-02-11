@@ -1,4 +1,5 @@
 TLE : Time Limit Exceeded 
 
+
 It means your program is taking too long to run and doesn’t finish within the time limit set by the problem setter, usually around 1 to 2 seconds. 
 In online coding platforms, each problem has a strict time limit. If your code takes even a tiny bit longer than that, it gets rejected with a TLE error, even if the logic is correct.
