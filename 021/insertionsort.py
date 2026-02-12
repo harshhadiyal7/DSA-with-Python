@@ -6,7 +6,6 @@ It is much less efficient on large lists than more advanced algorithms such as q
 '''
 
 nums = [3,5,6,4,8,9,10,7,1]
-
 n = len(nums)
 for i in range (1, n):
     key = nums[i]
