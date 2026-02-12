@@ -4,8 +4,6 @@
 Concept: Merge sort is a divide-and-conquer algorithm that divides the input array into two halves,
 recursively sorts each half, and then merges the two sorted halves back together.
 '''
-
-from turtle import left, right
 arr = [38, 27, 43, 3, 9, 82, 10]
 
 def merge_sort(arr):
