@@ -6,7 +6,6 @@ if they are in the wrong order.
 The pass through the list is repeated until the list is sorted.
 '''
 
-
 nums = [5,1,6,8,2,4,9]
 
 n = len(nums)
