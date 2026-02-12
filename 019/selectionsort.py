@@ -1,5 +1,4 @@
 # Selection Sort Implementation.
-
 '''
 Concept: 
 Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist and an unsorted sublist.
