@@ -4,10 +4,6 @@
 Concept: To reverse an array using recursion, we can swap the first and last elements and then recursively call the function 
 for the sub-array excluding these two elements until the base case is reached.
 '''
-
-from turtle import left, right
-
-
 nums=[2,4,1,7,6,3,8,9,5]
 
 def func(nums, left, right):
