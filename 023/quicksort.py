@@ -1,4 +1,4 @@
-# Quick sort alogorithm implementation in Python.
+# Quick sort algorithm implementation in Python.
 
 '''
 nums = [4,1,7,6,3,2,8]
