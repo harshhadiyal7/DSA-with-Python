@@ -21,6 +21,7 @@ TC : O(n^2)
 SC : O(1)
 '''
 
+#Optimal solution
 prise = [7,2,1,5,6,4,8]
 max_profit=0
 min_prise=float("inf")
