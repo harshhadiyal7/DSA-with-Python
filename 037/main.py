@@ -31,6 +31,8 @@ for i in range(0,n):
     max_profit=max(max_profit, prise[i]-min_prise)
    
 print(f"Final Maximum Profit: {max_profit}")
-
+'''
+TC : O(n)
+'''
 
 
