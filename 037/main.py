@@ -33,6 +33,7 @@ for i in range(0,n):
 print(f"Final Maximum Profit: {max_profit}")
 '''
 TC : O(n)
+SC : O(1)
 '''
 
 
