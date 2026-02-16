@@ -20,3 +20,16 @@ print(f"The maximum profit is: {max_profit}")
 TC : O(n^2)
 SC : O(1)
 '''
+
+prise = [7,2,1,5,6,4,8]
+max_profit=0
+min_prise=float("inf")
+n=len(prise)
+for i in range(0,n):
+    min_prise=min(min_prise, prise[i])
+    max_profit=max(max_profit, prise[i]-min_prise)
+   
+print(f"Final Maximum Profit: {max_profit}")
+
+
+
